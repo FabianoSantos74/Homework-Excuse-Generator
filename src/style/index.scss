@@ -1,16 +1,55 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
+h1 {
+  font-family: "Russo One", sans-serif;
+  font-size: 64px;
+  margin-left: 25px;
+  color: #4e4e55;
+}
+
+button {
+  margin-left: 25px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 6px;
+  font-size: 18px;
+  color: #4e4e55;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #ddd;
+  border: 3px solid #555;
+  height: 60px;
+  width: 200px;
+}
+
+button:hover {
+  opacity: 0.75;
+}
+
+a {
+  color: #000;
+}
+
+#excuses {
+  position: relative;
+  top: 30px;
+  left: 25px;
+  font-family: "Amatic SC", monospace;
+  font-size: 96px;
+  color: #009;
+}
+
+/*
     body{
         background: #BDBDBD;
     }
-    
+
     You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
+
+
+    ...Or you can use the import command to include
     other sylesheets into your bunde as well, e.j:
-    
+
     import 'relative/path/to/stylesheet.scss';
 
 */
